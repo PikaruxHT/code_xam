@@ -619,7 +619,7 @@ module.exports = function ({ api, config, __GLOBAL, User, Thread, Rank, Economy,
     //cặc
    if (contentMessage == "cặc"){
 			let name = await User.getName(senderID);
-		return api.sendMessage("Cặc thằng " + ${name} + "to vcl", threadID, messageID);
+		return api.sendMessage("Cặc thằng " + name + "to vcl", threadID, messageID);
 		};
 
 		//hug
